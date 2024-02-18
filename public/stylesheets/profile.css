@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Raleway', sans-serif;
+}
+body{
+  background-color: #dadada;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container{
+  margin:20px;
+  padding: 20px;
+  width:60%;
+  height:40%;
+  background-color: #fff;
+  border-radius: 10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items: center;  
+  box-shadow: 0 0 10px #000;
+}
+
+figure{
+  max-width:100%;
+  display:block;
+  text-align:center;
+  padding:10px;
+}
+figure .im{
+  width: 80px;
+  height:80px;
+  border-radius:50%;
+  object-fit: cover;
+  object-position:center;
+  box-shadow: 0 0 10px #000;
+}
+
+header{
+  width:80%;
+  text-align:center;
+}
+header h1{
+  padding:5px;
+  font-size:28px;
+  letter-spacing:0.1em;
+  font-weight:900;
+  color: crimson;
+}
+header h4{
+  margin-top: -15px;
+  font-weight: 500;
+  font-size: 23px;
+  color: orangered;
+}
+header p{
+  font-size:16px;
+  padding:5px 10px;
+}
+strong{
+  color: crimson;
+}
+
+.foo{
+  display:flex;
+  gap: 10px;
+  min-width: 45%;
+  padding:20px 10px;
+}
+.foo a{
+  width: 50%;
+  border-radius:5px;
+  padding:7px;
+  text-align:center;
+  text-decoration:none;
+  font-size:14px;
+  font-weight: 900;
+  color: crimson;
+  border: 1px solid crimson;
+  transition: all 0.5s;
+}
+.foo a:hover {
+  background-color: rgba(220, 20, 60, 0.692);
+  color:white;
+  font-weight: 900;
+}
+.foo a+a{
+  border:1px solid orangered;
+  color: orangered;
+}
+.foo a+a:hover{
+  background-color: rgba(255, 68, 0, 0.692);
+  color: white;
+}
+
+
+.uploadPlus{
+  display: flex;
+}
+.plus-icon {
+  background-color: crimson;
+  color: #fff;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-form {
+  display: none;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.captionUpload{
+  border: none;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+.captionUpload:hover{
+  border: 1px solid crimson;
+}
+
+
+.input-file {
+  position: absolute;
+  width: 45%;
+  opacity: 0;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.custom-file-label {
+  background-color: rgba(220, 20, 60, 0.938);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* display: inline-block; */
+}.custom-file-label:hover{
+  background-color: rgb(180, 7, 42);
+}
+
+.btnUpload{
+  margin: 10px;
+  width: 15%;
+  border-radius:5px;
+  padding:7px;
+  text-align:center;
+  font-size:14px;
+  font-weight: 900;
+  color: crimson;
+  border: 1px solid crimson;
+  transition: all 0.5s;
+}
+.btnUpload:hover{
+  background-color: rgba(220, 20, 60, 0.692);
+  color:white;
+}
+
+
+.container-card{
+  margin: 5%;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card{
+  width: 250px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+.card:hover{
+  box-shadow: 0 0 10px #000;
+  transform: translateY(-10px);
+}
+

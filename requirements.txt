@@ -1,0 +1,9 @@
+npm i
+npm i passport 
+npm i passport-local 
+npm i passport-local-mongoose 
+npm i mongoose 
+npm i express-session 
+npm i connect-flash
+
+npm i uuid multer
