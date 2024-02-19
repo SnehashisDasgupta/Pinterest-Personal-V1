@@ -138,7 +138,7 @@ strong{
 
 .input-file {
   position: absolute;
-  width: 45%;
+  width: 50%;
   opacity: 0;
   right: 0;
   top: 0;
@@ -146,31 +146,30 @@ strong{
 }
 
 .custom-file-label {
-  background-color: rgba(220, 20, 60, 0.938);
-  color: #fff;
+  
+  color: crimson;
+  border: 1px solid crimson;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-  /* display: inline-block; */
-}.custom-file-label:hover{
-  background-color: rgb(180, 7, 42);
+  display: inline-block;
 }
 
 .btnUpload{
   margin: 10px;
   width: 15%;
   border-radius:5px;
+  border: none;
   padding:7px;
   text-align:center;
   font-size:14px;
   font-weight: 900;
-  color: crimson;
-  border: 1px solid crimson;
+  background-color: rgba(220, 20, 60, 0.938);
+  color: #fff;
   transition: all 0.5s;
 }
 .btnUpload:hover{
-  background-color: rgba(220, 20, 60, 0.692);
-  color:white;
+  background-color: rgb(180, 7, 42);
 }
 
 
